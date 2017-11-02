@@ -1,0 +1,150 @@
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--xmlns:tools="http://schemas.android.com/tools"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/qq"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="page1"
+            android:visibility="gone"/>
+
+        <ListView
+            android:id="@+id/listView_deviceList2"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            tools:listitem="@layout/adapter_device_list2">
+
+        </ListView>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:background="@drawable/sousuo"
+                android:id="@+id/button_search"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="搜索手环"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="54dp"
+                android:layout_marginStart="54dp" />
+
+            <Button
+                android:id="@+id/button_sync"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="同步睡眠行走数据"
+                android:visibility="gone"/>
+            <Button
+                android:background="@drawable/sousuo"
+                android:id="@+id/button_disconnect"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="断开连接"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="54dp"
+                android:layout_marginEnd="54dp" />
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp">
+
+        <Button
+
+            android:id="@+id/button_synchronization"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/sousuo"
+            android:gravity="center"
+            android:text="同步时间"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="56dp"
+            android:layout_marginStart="56dp" />
+
+        <Button
+            android:id="@+id/button_test"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_toRightOf="@id/button_synchronization"
+            android:gravity="center"
+            android:text="go2Second"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/button_xinlv"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/sousuo"
+            android:gravity="center"
+            android:text="查询心率"
+            android:layout_marginRight="54dp"
+            android:layout_marginEnd="54dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <Button
+            android:id="@+id/button_xueya"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:background="@drawable/sousuo"
+            android:text="校准血压"/>
+
+        <EditText
+            android:id="@+id/editText_shousuoya"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+
+            android:hint="收缩压"/>
+
+        <EditText
+            android:id="@+id/editText_shuzhangya"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:hint="舒张压"/>
+
+    </LinearLayout>
+<!--</ScrollView>-->
+
+    

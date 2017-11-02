@@ -1,0 +1,72 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="bamai">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="gan_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">23dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="gan_imageView" parent="gan_style">
+        <item name="android:layout_marginBottom">22dp</item>
+        <item name="android:layout_marginLeft">150dp</item>
+    </style>
+
+    <style name="gan_style_zilei" parent="gan_style">
+        <item name="android:layout_marginBottom">23dp</item>
+        <item name="android:layout_marginLeft">152dp</item>
+    </style>
+
+    <style name="gan_tv_style_maili">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginBottom">52dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:drawablePadding">6dp</item>
+    </style>
+
+    <style name="gan_tv_style_jiexi">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginBottom">52dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:drawablePadding">6dp</item>
+    </style>
+
+    <style name="gan_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="gan_Retity">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">280dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="gan_Retity2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">198dp</item>
+    </style>
+</resources>

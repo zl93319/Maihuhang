@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/gan_title"
+              android:background="@drawable/mai_time_kuang"
+              >
+
+    <RelativeLayout
+        style="@style/gan_Retity"
+        android:background="@drawable/biaopan">
+
+        <TextView
+            android:id="@+id/tv_shen_maili"
+            style="@style/gan_tv_style_maili"
+            android:drawableLeft="@drawable/iconmaili"
+            android:text="脉理:暂无数据"/>
+
+        <TextView
+            android:id="@+id/tv_shen_jiexi"
+            style="@style/gan_tv_style_jiexi"
+            android:drawableLeft="@drawable/iconjiexi"
+            android:text="点击解析脉象"/>
+
+        <RelativeLayout
+            style="@style/gan_Retity2">
+
+            <ImageView
+                android:id="@+id/disc_shen1"
+                style="@style/gan_style"
+                android:layout_marginBottom="23dp"
+                android:layout_marginLeft="103dp"
+                android:background="@drawable/pointerkidneyruo"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/disc_shen2"
+                style="@style/gan_style"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="23dp"
+                android:background="@drawable/pointerkidneyhuan"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/disc_shen3"
+                style="@style/gan_imageView"
+                android:background="@drawable/pointerkidneyxuan"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/disc_shen4"
+                style="@style/gan_imageView"
+                android:background="@drawable/pointerkidneyjin"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/disc_shen5"
+                style="@style/gan_style"
+                android:layout_marginBottom="22dp"
+                android:layout_marginLeft="150dp"
+                android:background="@drawable/pointerkidneyshi"
+                android:visibility="visible"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

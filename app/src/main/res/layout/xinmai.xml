@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/gan_title"
+              android:background="@drawable/mai_time_kuang">
+
+    <RelativeLayout
+        style="@style/gan_Retity"
+        android:background="@drawable/biaopan">
+
+        <TextView
+            android:id="@+id/tv_xin_maili"
+            style="@style/gan_tv_style_maili"
+            android:drawableLeft="@drawable/iconmaili"
+            android:text="脉理:暂无数据"/>
+
+        <TextView
+            android:id="@+id/tv_xin_jiexi"
+            style="@style/gan_tv_style_jiexi"
+            android:drawableLeft="@drawable/iconjiexi"
+            android:text="点击解析脉象"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="198dp">
+
+            <ImageView
+                android:id="@+id/disc_xin1"
+                style="@style/gan_style"
+                android:layout_marginBottom="23dp"
+                android:layout_marginLeft="105dp"
+                android:background="@drawable/pointerheartruo"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/disc_xin2"
+                style="@style/gan_style"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="23dp"
+                android:background="@drawable/pointerheart"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/disc_xin3"
+                style="@style/gan_style"
+                android:layout_marginLeft="150dp"
+                android:background="@drawable/pointerheartxuan"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/disc_xin4"
+                style="@style/gan_imageView"
+                android:background="@drawable/pointerheartjin"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/disc_xin5"
+                style="@style/gan_style"
+                android:layout_marginBottom="22dp"
+                android:layout_marginLeft="150dp"
+                android:background="@drawable/pointerheartshi"
+                android:visibility="visible"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

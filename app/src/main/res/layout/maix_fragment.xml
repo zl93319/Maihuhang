@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/m_bg"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <include layout="@layout/xinmai"/>
+
+        <include layout="@layout/shenmai"/>
+
+        <include layout="@layout/ganmai"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mai_time_kuang">
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:drawableLeft="@drawable/rili"
+                android:drawablePadding="4dp"
+                android:text="最新时间 : "/>
+
+            <TextView
+                android:id="@+id/tv_celiang_time"
+                android:layout_toRightOf="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/img_history"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/lishijilu"/>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/mai_time_kuang"
+            android:orientation="vertical"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="脉象测量说明"
+                android:textStyle="bold"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_margin="6dp"
+                android:background="#009100"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dip"
+                android:text="一、脉象是中医诊断最基础的数据，脉护航利用本智能手表的光电容积脉搏波描记法获取了人体的血流信息，并用专利算法检测出左手寸关尺的脉象。为了测量更加准确，使用本功能前：1.请您利用本智能手表的血压学习功能，矫正算法与个体差异；2.请务必保持每天早晨0:00-7:00佩戴本智能手表，并在手表设置中把“监测频率”设定在60以内。需要说明的是，脉象每天显示一次，以每天早上5:00-7:00光电容积脉搏波为准。 "
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="二、弱脉：表示气血（正气）亏虚；缓脉：表示健康平缓状态；弦脉：表示致病因素（邪气）亚健康初始阶段（亚健康一级）；紧脉：表示致病因素积累阶段（亚健康二级）；实脉：表示致病因素积累致病阶段（欲病阶段）"
+                android:textSize="15dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

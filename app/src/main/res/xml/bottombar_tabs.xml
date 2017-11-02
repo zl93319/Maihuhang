@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <tab
+        icon="@mipmap/zhuye"
+        id="@+id/tab_bamai"
+        title="健康把脉"/>
+
+    <tab
+        icon="@mipmap/jiance"
+        id="@+id/tab_jaince"
+        title="检测"/>
+
+    <tab
+        icon="@mipmap/geren"
+        id="@+id/tab_gerenz"
+        title="个人中心"/>
+</PreferenceScreen>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/gan_title"
+              android:background="@drawable/mai_time_kuang"
+              >
+
+    <RelativeLayout
+        style="@style/gan_Retity"
+        android:background="@drawable/biaopan">
+
+        <TextView
+            android:id="@+id/tv_gan_maili"
+            style="@style/gan_tv_style_maili"
+            android:drawableLeft="@drawable/iconmaili"
+            android:text="脉理:暂无数据"/>
+
+        <TextView
+            android:id="@+id/tv_gan_jiexi"
+            style="@style/gan_tv_style_jiexi"
+            android:drawableLeft="@drawable/iconjiexi"
+            android:text="点击解析脉象"/>
+
+        <RelativeLayout
+            style="@style/gan_Retity2">
+            <ImageView
+                android:id="@+id/disc_gan0"
+                style="@style/gan_style"
+                android:layout_marginLeft="100dp"
+                android:background="@drawable/pointerliverruo"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/disc_gan1"
+                style="@style/gan_style"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/pointerliverhuan"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/disc_gan2"
+                style="@style/gan_style_zilei"
+                android:background="@drawable/pointerliverxuan"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/disc_gan3"
+                style="@style/gan_style_zilei"
+                android:background="@drawable/pointerliverjin"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/disc_gan4"
+                style="@style/gan_style"
+                android:layout_marginBottom="22dp"
+                android:layout_marginLeft="150dp"
+                android:background="@drawable/pointerlivershi"
+                android:visibility="visible"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

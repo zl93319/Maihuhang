@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@mipmap/lc"
+    >
+
+    <gradient.mylibrary.GradienTextView
+        android:id="@+id/gradienTextView"
+        android:layout_width="100sp"
+        android:layout_height="60sp"
+        android:gravity="center_horizontal"
+        android:text="请您先检测!"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        app:change_color="@color/black"
+        app:original_color="@color/white"
+        android:layout_marginRight="130dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginTop="240dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
